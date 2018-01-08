@@ -42,7 +42,7 @@
             
         } else {
             
-            // Create the URL to API including API key and encoded email address
+            // Create the URL to call including API key and encoded email address
             $email_url = "https://ws.postcoder.com/pcw/" . $api_key . "/emailaddress/" . urlencode($email); 
             
             // Use cURL to send the request and get the output
