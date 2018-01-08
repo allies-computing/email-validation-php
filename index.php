@@ -45,11 +45,11 @@
             // Create the URL to API including API key and encoded email address
             $email_url = "https://ws.postcoder.com/pcw/" . $api_key . "/emailaddress/" . urlencode($email); 
             
-            // use cURL to send the request and get the output
+            // Use cURL to send the request and get the output
             $session = curl_init($email_url); 
             // Tell cURL to return the request data
             curl_setopt($session, CURLOPT_RETURNTRANSFER, true); 
-            // use application/json to specify json return values, the default is XML.
+            // Use application/json to specify json return values, the default is XML
             $headers = array('Content-Type: application/json');
             curl_setopt($session, CURLOPT_HTTPHEADER, $headers);
 
