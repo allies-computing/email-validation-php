@@ -4,4 +4,4 @@ Simple demo which passes email address to the API and shows a message based on r
 Including showing alternative suggestions for common typos such as gamil.com instead of gmail.com
 
 Full email validation API documentation:- 
-https://developers.alliescomputing.com/postcoder-web-api/email-validation
+https://postcoder.com/docs/email-validation
